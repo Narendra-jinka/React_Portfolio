@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text_hover {
+    @apply hover:scale-110 hover:transition-transform hover:duration-300 hover:ease-in-out;
+  }
+
+  .icons_hover {
+    @apply hover:scale-125 hover:transition-transform hover:duration-500 hover:ease-in-out;
+  }
+
+  .power_hover {
+    @apply relative overflow-hidden rounded-full focus:outline-none bg-transparent  transition-all duration-300 ease-in-out hover:bg-green-400 hover:shadow-md;
+  }
+
+  .container {
+    @apply max-w-full w-[1440px] px-5 mx-auto;
+  }
+
+  .btn {
+    @apply bg-orange-500 py-[5px] px-[35px]  rounded-[50px] text-white font-[600] ;
+  }
+  .heading {
+    @apply text-[44px] leading-[54px] font-[700] text-headingColor;
+  }
+  .text__para {
+    @apply text-[18px] leading-[30px] font-[400] text-[#f1916d] mt-[18px];
+  }
+  
+  
+  .form__label {
+    @apply text-[#f1916d] font-semibold text-[18px]  mb-2;
+  }
+  .form__input {
+    @apply w-full px-4 py-2 border-2 border-solid border-[#c72931] focus:outline-none
+      focus:border-primaryColor text-[16px]  text-headingColor placeholder:text-textColor cursor-pointer rounded-md;
+  }
+}
+
+
+@media only screen and (max-width:768px){
+  .logo_text{
+    @apply text-[1.4rem] pl-[20px]
+  }
+  .yinYang_pic{
+    @apply h-[120] w-[120]  
+  }
+  .yinYang_pic_clicked{
+    @apply top-[89%] 
+  }
+  .yinYang_pic_clicked_hw{
+    @apply h-[50px] w-[50px]
+  }
+
+  .black_screen {
+    width: 100%;
+    height: 50%;
+    right: 0;
+    bottom: 1/2;
+  }
+  .smContact{
+    @apply text-white
+  }
+  .intro_style_sm{
+    height: 70vh;
+    width: 65vw;
+    background: linear-gradient(
+            to bottom,
+            white 50%,
+            black 50%) right,
+            linear-gradient(
+            to bottom,
+            white 50%,
+            black 50%) left;
+        background-repeat: no-repeat;
+        background-size: 2px 100%;
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid white;
+        border-bottom: 2px solid black;
+  }
+
+  .hero_text_sm{
+    font-size: 0.8rem;
+
+  }
+}

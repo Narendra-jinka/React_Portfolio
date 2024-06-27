@@ -1,0 +1,12 @@
+font-thin: Thin font weight.
+font-extralight: Extra light font weight.
+font-light: Light font weight.
+font-normal: Normal font weight.
+font-medium: Medium font weight.
+font-semibold: Semi-bold font weight.
+font-bold: Bold font weight.
+font-extrabold: Extra bold font weight.
+font-black: Black font weight.
+
+
+------
