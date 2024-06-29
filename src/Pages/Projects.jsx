@@ -137,7 +137,7 @@ const WorkPage = () => {
   const Logo = () => {
     return (
       <>
-        <h1 className="pacifico-font text-white text-3xl z-20 pl-[30px]">
+        <h1 className="pacifico-font text-white text-2xl lg:text-3xl z-20 pl-[20px] lg:pl-[30px]">
           _NarendrA_
         </h1>
       </>
@@ -152,7 +152,7 @@ const WorkPage = () => {
             <Logo />
             <NavLink
               to="/"
-              className="h-[40px] z-20 w-[40px] rounded-full p-2 power_hover hover:shadow-custom bg-white"
+              className="h-[40px] z-20 w-[40px] ml-4 rounded-full p-2 power_hover hover:shadow-custom bg-white"
             >
               <PowerBtn />
             </NavLink>
@@ -195,8 +195,8 @@ const WorkPage = () => {
             </Tags>
 
             <div className="flex justify-between">
-              <Link href="http://">Visit</Link>
-              <Git href="http://" target="_blank">
+              <Link href="https://narendrasportfolio.netlify.app/">Visit</Link>
+              <Git href="https://github.com/Narendra-jinka/React_Portfolio/tree/master" target="_blank">
                 <Github
                   width={30}
                   height={30}

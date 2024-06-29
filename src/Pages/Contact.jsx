@@ -48,7 +48,7 @@ const Contact = () => {
       <div className="px-4 mx-auto max-w-screen-md">
         <h2 className="about_titles text-[3rem] text-center text-white">Contact Me .</h2>
         <p className="mb-3 lg:mb-6 font-light text-center about_text text__para">
-           want to send feeddback or want to connect <br/>
+           want to send feedback or want to connect <br/>
             Let me know. 
         </p>
         <form onSubmit={onSubmit} className='space-y-3'>

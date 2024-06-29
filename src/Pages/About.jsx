@@ -10,7 +10,7 @@ const About = () => {
 
   function Logo() {
     return (
-      <h1 className="pacifico-font text-white text-3xl  z-20 pl-[30px]">
+      <h1 className="pacifico-font text-white text-2xl lg:text-3xl  z-20 pl-[20px] lg:pl-[30px]">
         _NarendrA_
       </h1>
     );
@@ -22,7 +22,7 @@ const About = () => {
         <Logo />
         <NavLink
           to="/"
-          className="h-[40px] z-20 w-[40px] rounded-full p-2 power_hover hover:shadow-custom bg-white"
+          className="h-[40px] z-20 w-[40px] rounded-full ml-4 p-2 power_hover hover:shadow-custom bg-white"
         >
           <PowerBtn />
         </NavLink>
@@ -42,7 +42,7 @@ const About = () => {
   const AboutMe = () => {
     return (
       <div className="absolute flex justify-center items-center w-full h-auto mt-[50px] z-10">
-        <div className="bg-white ml-14 bg-opacity-5 backdrop-blur-lg border-2 border-white w-5/6 rounded-xl flex flex-col md:flex-row justify-center items-center p-4">
+        <div className="bg-white ml-2  mr-2 bg-opacity-5 backdrop-blur-lg border-2 border-white w-[490px] lg:w-5/6  rounded-xl flex flex-col md:flex-row justify-center items-center p-4">
           <div className="w-full md:w-1/2 flex flex-col justify-center text-white mb-4 md:mb-0 md:pr-4 ">
             <h2 className="text-2xl font-bold mb-4 about_titles flex justify-center md:justify-center">
               ABOUT ME !.

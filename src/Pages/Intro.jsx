@@ -14,7 +14,7 @@ const Intro = () => {
       className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[65vw] h-[55vh] flex z-1 intro_style intro_style_sm"
     >
       <div className="w-1/2 relative flex">
-        <div className="flex flex-col  text-center  text-white pl-8 lg:p-8 cursor-pointer">
+        <div className="flex flex-col  text-center  text-white pl-3 lg:p-5 cursor-pointer">
           <h1 className=" opacity-65 hero_text_sm"
            style={{
               fontFamily: "Cinzel",
